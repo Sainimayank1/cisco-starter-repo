@@ -3,10 +3,8 @@ import Subcontainer from './Subcontainer.jsx'
 function Container() {
   return (
     <div className='container'>
-        <Subcontainer/>
-        <Subcontainer/>
-        <Subcontainer/>
-        <Subcontainer/>
+        <Subcontainer name="IPv4"/>
+        <Subcontainer name="IPv6"/>
     </div>
   )
 }
