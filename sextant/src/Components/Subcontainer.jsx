@@ -5,8 +5,11 @@ function Subcontainer(prop) {
        
     
     return (
-    <div className='Subcontainer'>{prop.name}
-    <div>IP :{<IpFinder url={prop.url}/>}</div></div>
+    <div className='Subcontainer'>
+    <div className='Subcontainer-name'>
+      {prop.name}
+    </div>
+    <div className='Subcontainer-ip'>IP :{<IpFinder url={prop.url}/>}</div></div>
   )
 }
 

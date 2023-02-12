@@ -1,9 +1,17 @@
+.app
+{
+  background: #FFF6BD;
+  min-height: 100vh;
+
+}
+
 .navbar-main {
   width: 100vw;
   height: 10vh;
   display: flex;
   align-items: center;
-  box-shadow: rgb(221, 219, 219) 0px 5px 50px;
+  background: #FFD4B2;
+  box-shadow: #FFD4B2 0px 15px 50px;
 }
 
 .navbar-start {
@@ -13,15 +21,51 @@
 }
 
 .container {
-  height: 100vh;
+  height:fit-content;
   padding: 10vh;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto ;
+  background: #FFF6BD;
 }
 
 .Subcontainer {
   height: 35vh;
   width: 25vw;
-  border: 2px solid black;
+  border: 2px solid #86C8BC;
   margin: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background: #CEEDC7;
+  border-radius: 20%;
+  flex-direction: column;
+}
+
+.Subcontainer-name{
+  font-size: 35px;
+  margin: 20px;
+}
+.Subcontainer-ip{
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.pylon
+{
+  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.pylon div{
+  background: #CEEDC7;
+  width: 80%;
+  height: 50px;
+  /* border-radius: 20%; */
+  border: 2px solid #86C8BC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
